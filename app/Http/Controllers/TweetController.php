@@ -132,10 +132,4 @@ class TweetController extends Controller
       ->get();
     return view('tweet.index', compact('tweets'));
   }
-    public function otherdata()
-  {
-    ddd(user);
-    
-    return view('tweet.index', compact('tweets'));
-  }
 }
